@@ -1,0 +1,9 @@
+The corrected CSS rule with the space added between `100%` and `-`:
+
+```css
+.element {
+  width: calc(100% - 10px);
+}
+```
+
+This version correctly calculates the width, subtracting 10 pixels from 100% of the container's width.
