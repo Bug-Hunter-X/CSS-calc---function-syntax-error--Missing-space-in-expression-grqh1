@@ -1,0 +1,9 @@
+The following CSS rule uses a `calc()` function with an invalid expression that results in a syntax error:
+
+```css
+.element {
+  width: calc(100% - 10px);
+}
+```
+
+The problem is that it's missing a space between the `100%` and the `-` operator within the `calc()` function, causing the browser's CSS parser to fail.
